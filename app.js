@@ -36,23 +36,26 @@ function questionTwo(){
 }
 questionTwo();
 
+function questionThree(){
+
+  let answerThree = prompt('Am I taller than 5\'6? ' + 'Yes or no?').toUpperCase();
+  
+  
+  if(answerThree === 'Y' || answerThree === 'YES'){
+  
+    // console.log('I wish... hahaha!!');
+  
+    alert('I wish... hahaha!!');
+  } else if(answerThree === 'N' || answerThree === 'NO'){
+    alert('Yeah... I\'m short!');
+  }
+}
+questionThree();
+
 function question(){
 
 }
 question();
-let answerThree = prompt('Am I taller than 5\'6? ' + 'Yes or no?').toUpperCase();
-
-
-if(answerThree === 'Y' || answerThree === 'YES'){
-
-  // console.log('I wish... hahaha!!');
-
-  alert('I wish... hahaha!!');
-} else if(answerThree === 'N' || answerThree === 'NO'){
-  alert('Yeah... I\'m short!');
-}
-
-
 let answerFour = prompt('Do I have 2 brothers? ' + 'Yes or no?').toUpperCase();
 
 

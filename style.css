@@ -1,21 +1,46 @@
 body{
   background-color: grey;
 }
-h1{
-  background-color: gold; text-align: center; padding: 3px;
-}
-h3{
-  background-color: black;
+header{
+  text-align: center; font-size: large;background-color: gold;
+  border: 3px; border-style: solid; border-color: rgb(0, 0, 0);
+  border-width: 5px;   
+  margin-left: 850px;
+  margin-right: 850px;
 }
 
+
+
 h2{
-  text-decoration: underline
-  
+  text-align: left; background-color: gold;
+  border: 3px; border-style: solid; border-color: rgb(0, 0, 0);
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-right: 1750px;
+}
+
+h3{
+  text-align: left; font-size: x-large; background-color: gold;
+  border: 3px; border-style: solid; border-color: rgb(0, 0, 0);
+  border-width: 5px;
+  margin-top: 200px;
+  margin-left: 0px;
+  margin-right: 1650px;
 }
 
 p{
   font-size: x-large;
-  height: 200px;
-  width:700px;
-  background-color: rgb(126, 32, 4);
+
+
 }
+
+ul{
+  text-align: left;
+}
+
+
+ol{
+  font-size: large;
+  
+}
+

@@ -52,22 +52,26 @@ function questionThree(){
 }
 questionThree();
 
+function questionFour(){
+
+  let answerFour = prompt('Do I have 2 brothers? ' + 'Yes or no?').toUpperCase();
+  
+  
+  if(answerFour ==='Y' || answerFour ==='YES' ){
+  
+    // console.log('Nope! I have 3 brothers and I am the second oldest.');
+  
+    alert('Nope! I have 3 brothers and I am the second oldest.');
+  }else if(answerFour === 'N' || answerFour ==='NO'){
+    alert('Look at you! I actually have 3 brothers and I am the second oldest.');
+  }
+}
+questionFour();
+
 function question(){
 
 }
 question();
-let answerFour = prompt('Do I have 2 brothers? ' + 'Yes or no?').toUpperCase();
-
-
-if(answerFour ==='Y' || answerFour ==='YES' ){
-
-  // console.log('Nope! I have 3 brothers and I am the second oldest.');
-
-  alert('Nope! I have 3 brothers and I am the second oldest.');
-}else if(answerFour === 'N' || answerFour ==='NO'){
-  alert('Look at you! I actually have 3 brothers and I am the second oldest.');
-}
-
 let answerFive = prompt('Ok, I know you\'re tired of these questions but I promise this is the last one.. Do I make music? ' + 'Yes or no?').toUpperCase();
 
 if(answerFive ==='Y' || answerFive ==='YES' ){

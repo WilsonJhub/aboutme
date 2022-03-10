@@ -2,27 +2,34 @@
 
 
 let user = prompt('Thanks for being here! What shall I call you?');
-  alert('Let\'s play a game, ' + user);
+alert('Let\'s play a game, ' + user);
 
-let answerOne = prompt('Am I married? ' + 'Yes or no?').toUpperCase();
+function questionOne(){
+
+  let answerOne = prompt('Am I married? ' + 'Yes or no?').toUpperCase();
 
 
-if(answerOne === 'Y' || answerOne === 'YES'){
+  if(answerOne === 'Y' || answerOne === 'YES'){
 
-// console.log('Nice! You got that one right!!');
+    // console.log('Nice! You got that one right!!');
 
-  alert('Nice! You got that one right!!');
-} else if(answerOne === 'N' || answerOne === 'NO'){
-  alert('That is incorrect, nice try.');
+    alert('Nice! You got that one right!!');
+  } else if(answerOne === 'N' || answerOne === 'NO'){
+    alert('That is incorrect, nice try.');
+  }
 }
+questionOne();
 
+function question(){
 
+}
+question();
 let answerTwo = prompt('How many children do I have? One or Two?').toUpperCase();
 
 
 if(answerTwo ==='TWO' || answerTwo ==='2'){
 
-// console.log('That\'s correct! I have a boy and a girl!');
+  // console.log('That\'s correct! I have a boy and a girl!');
 
   alert('That\'s correct! I have a boy and a girl!');
 } else if(answerTwo === 'ONE' || '1'){
@@ -35,7 +42,7 @@ let answerThree = prompt('Am I taller than 5\'6? ' + 'Yes or no?').toUpperCase()
 
 if(answerThree === 'Y' || answerThree === 'YES'){
 
-// console.log('I wish... hahaha!!');
+  // console.log('I wish... hahaha!!');
 
   alert('I wish... hahaha!!');
 } else if(answerThree === 'N' || answerThree === 'NO'){
@@ -48,7 +55,7 @@ let answerFour = prompt('Do I have 2 brothers? ' + 'Yes or no?').toUpperCase();
 
 if(answerFour ==='Y' || answerFour ==='YES' ){
 
-// console.log('Nope! I have 3 brothers and I am the second oldest.');
+  // console.log('Nope! I have 3 brothers and I am the second oldest.');
 
   alert('Nope! I have 3 brothers and I am the second oldest.');
 }else if(answerFour === 'N' || answerFour ==='NO'){
@@ -60,7 +67,7 @@ let answerFive = prompt('Ok, I know you\'re tired of these questions but I promi
 if(answerFive ==='Y' || answerFive ==='YES' ){
   alert('That\'s correct!');
 }else if(answerFive ==='N' || answerFive ==='NO'){
-  alert('I guess you weren\'t listening!!')
+  alert('I guess you weren\'t listening!!');
 }
 
 alert('Thank you for playing, ' + user);
@@ -71,16 +78,16 @@ let maxRetry = 3;
 for (let i = 0;i < maxRetry; i++){
   let guessSix = prompt('I\'m thinking of number between 1 and 6. Guess that number!');
   if (parseInt (guessSix) === answerSix){
-  alert('Wow! Nice job!');
-  break;
+    alert('Wow! Nice job!');
+    break;
   }else if(guessSix > answerSix){
     alert('Almost, you\'re too high!');
   }else if(guessSix < answerSix){
-    alert('Too low. Try again!')
+    alert('Too low. Try again!');
   }
 }
 if(i === maxRetry){
-  alert('Awwww. You were so close! The answer was 3!')
+  alert('Awwww. You were so close! The answer was 3!');
 }
 
 let favfood = [taco, steak, salmon, burger, chicken, cake, candy];
@@ -91,7 +98,7 @@ let MyRetry = 5;
 let guessSeven = 'salmon && chicken && burger';
 
 while(favfood ){
-answer = prompt('I do not like steak, candy, or cake!!')
+  answer = prompt('I do not like steak, candy, or cake!!');
 }
 
 

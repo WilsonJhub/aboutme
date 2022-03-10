@@ -103,19 +103,19 @@ function questionSix(){
   }
 }
 questionSix();
-function question(){
+function questionSeven(){
 
+  let favfood = [taco, steak, salmon, burger, chicken, cake, candy];
+  console.log(favfood.length);
+  
+  
+  let MyRetry = 5;
+  let guessSeven = 'salmon && chicken && burger';
+  
+  while(favfood ){
+    answer = prompt('I do not like steak, candy, or cake!!');
+  }
 }
-question();
-let favfood = [taco, steak, salmon, burger, chicken, cake, candy];
-console.log(favfood.length);
-
-
-let MyRetry = 5;
-let guessSeven = 'salmon && chicken && burger';
-
-while(favfood ){
-  answer = prompt('I do not like steak, candy, or cake!!');
-}
+questionSeven();
 
 

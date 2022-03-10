@@ -68,19 +68,19 @@ function questionFour(){
 }
 questionFour();
 
-function question(){
+function questionFive(){
 
+  let answerFive = prompt('Ok, I know you\'re tired of these questions but I promise this is the last one.. Do I make music? ' + 'Yes or no?').toUpperCase();
+  
+  if(answerFive ==='Y' || answerFive ==='YES' ){
+    alert('That\'s correct!');
+  }else if(answerFive ==='N' || answerFive ==='NO'){
+    alert('I guess you weren\'t listening!!');
+  }
+  
+  alert('Thank you for playing, ' + user);
 }
-question();
-let answerFive = prompt('Ok, I know you\'re tired of these questions but I promise this is the last one.. Do I make music? ' + 'Yes or no?').toUpperCase();
-
-if(answerFive ==='Y' || answerFive ==='YES' ){
-  alert('That\'s correct!');
-}else if(answerFive ==='N' || answerFive ==='NO'){
-  alert('I guess you weren\'t listening!!');
-}
-
-alert('Thank you for playing, ' + user);
+questionFive();
 
 let answerSix = 3;
 let maxRetry = 3;

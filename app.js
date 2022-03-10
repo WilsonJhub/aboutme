@@ -82,24 +82,31 @@ function questionFive(){
 }
 questionFive();
 
-let answerSix = 3;
-let maxRetry = 3;
+function questionSix(){
 
-for (let i = 0;i < maxRetry; i++){
-  let guessSix = prompt('I\'m thinking of number between 1 and 6. Guess that number!');
-  if (parseInt (guessSix) === answerSix){
-    alert('Wow! Nice job!');
-    break;
-  }else if(guessSix > answerSix){
-    alert('Almost, you\'re too high!');
-  }else if(guessSix < answerSix){
-    alert('Too low. Try again!');
+  let answerSix = 3;
+  let maxRetry = 3;
+  
+  for (let i = 0;i < maxRetry; i++){
+    let guessSix = prompt('I\'m thinking of number between 1 and 6. Guess that number!');
+    if (parseInt (guessSix) === answerSix){
+      alert('Wow! Nice job!');
+      break;
+    }else if(guessSix > answerSix){
+      alert('Almost, you\'re too high!');
+    }else if(guessSix < answerSix){
+      alert('Too low. Try again!');
+    }
+  }
+  if(i === maxRetry){
+    alert('Awwww. You were so close! The answer was 3!');
   }
 }
-if(i === maxRetry){
-  alert('Awwww. You were so close! The answer was 3!');
-}
+questionSix();
+function question(){
 
+}
+question();
 let favfood = [taco, steak, salmon, burger, chicken, cake, candy];
 console.log(favfood.length);
 

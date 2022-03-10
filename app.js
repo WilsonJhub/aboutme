@@ -20,23 +20,26 @@ function questionOne(){
 }
 questionOne();
 
+function questionTwo(){
+
+  let answerTwo = prompt('How many children do I have? One or Two?').toUpperCase();
+  
+  
+  if(answerTwo ==='TWO' || answerTwo ==='2'){
+  
+    // console.log('That\'s correct! I have a boy and a girl!');
+  
+    alert('That\'s correct! I have a boy and a girl!');
+  } else if(answerTwo === 'ONE' || '1'){
+    alert('Nope! I have 2 children. A boy and a girl.');
+  }
+}
+questionTwo();
+
 function question(){
 
 }
 question();
-let answerTwo = prompt('How many children do I have? One or Two?').toUpperCase();
-
-
-if(answerTwo ==='TWO' || answerTwo ==='2'){
-
-  // console.log('That\'s correct! I have a boy and a girl!');
-
-  alert('That\'s correct! I have a boy and a girl!');
-} else if(answerTwo === 'ONE' || '1'){
-  alert('Nope! I have 2 children. A boy and a girl.');
-}
-
-
 let answerThree = prompt('Am I taller than 5\'6? ' + 'Yes or no?').toUpperCase();
 
 

@@ -1,46 +1,68 @@
-body{
-  background-color: grey;
+body {
+  background-color: rgb(255, 255, 255)
 }
-header{
-  text-align: center; font-size: large;background-color: gold;
-  border: 3px; border-style: solid; border-color: rgb(0, 0, 0);
-  border-width: 5px;   
+
+header {
+  text-align: center; font-size: xx-large;background-color: skyblue;
+  border: 2px; border-style: solid; border-color: rgb(0, 0, 0);
+  border-width: 2px;   
   margin-left: 850px;
   margin-right: 850px;
+  margin-top: 30px;
+  margin-bottom:0;
+  
 }
 
+#skyline {
+  margin-top: 50px;
+  border: 5px; border-style: solid; border-color: rgb(0, 0, 0);
+  
+}
 
-
-h2{
-  text-align: left; background-color: gold;
-  border: 3px; border-style: solid; border-color: rgb(0, 0, 0);
-  margin-top: 10px;
+h1 {
+  text-align: left; background-color:skyblue;
+  border: 2px; border-style: solid; border-color: rgb(0, 0, 0);
+  margin-top: 45px;
   margin-bottom: 0px;
-  margin-right: 1750px;
+  margin-right: 1600x;
+}
+
+#aboutme {
+  text-align: left; font-size: large;
+  background-color: skyblue
+  border: 2px; border-style: solid; border-color: rgb(0, 0, 0)
+
+}
+
+h2 {
+  text-align: left; font-size: xx-large; background-color: skyblue;
+  border: 2px; border-style: solid; border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  margin-top: 45px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 h3{
-  text-align: left; font-size: x-large; background-color: gold;
-  border: 3px; border-style: solid; border-color: rgb(0, 0, 0);
-  border-width: 5px;
-  margin-top: 200px;
+  font-size: xx-large text-align: left; background-color: skyblue;
+  border: 2px; border-style: solid; border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  margin-top: 45px;
   margin-left: 0px;
-  margin-right: 1650px;
+  margin-right: 0px;
 }
 
-p{
-  font-size: x-large;
-
-
+#education {
+  font-size: large;border: 3px;border-style: solid;border-color: rgb(0, 0, 0);
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto ;
 }
 
-ul{
-  text-align: left;
-}
-
-
-ol{
+ol {
   font-size: large;
+  border: 3px; border-style: solid; border-color: rgb(0, 0, 0);
   
 }
 
